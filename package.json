@@ -1,0 +1,24 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "small code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ACERY1/practice.git"
+  },
+  "author": "acery1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ACERY1/practice/issues"
+  },
+  "homepage": "https://github.com/ACERY1/practice#readme",
+  "devDependencies": {
+    "eslint": "^4.13.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}

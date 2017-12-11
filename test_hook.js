@@ -86,3 +86,15 @@ if(codeList2[code4]){
 //http://blog.csdn.net/luffy_ying/article/details/60580437
 //https://www.2cto.com/kf/201706/649649.html
 //http://www.cnblogs.com/pannengzhi/p/5203467.html
+
+
+
+created={
+    test (){
+        console.log('hello')
+    },
+    hello (){
+        console.log("hello")
+    }
+}
+
