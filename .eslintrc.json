@@ -1,6 +1,9 @@
 {
     "extends": "airbnb-base",
     "rules": {
-        "no-unused-vars":"warn"
+        "no-unused-vars":"warn",
+        "func-names":"off",
+        "no-console":"off",
+        "no-param-reassign":"off"
     }
 }
