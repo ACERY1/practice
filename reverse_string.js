@@ -15,6 +15,3 @@ let m2 = Array.prototype.reverse.call(testString)
 console.log(m2)
 //报错 TypeError: Cannot assign to read only property '0' of object '[object String]'
 //解释： JavaScript中字符串是不可变的
-
-
-

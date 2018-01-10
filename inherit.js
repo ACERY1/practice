@@ -29,11 +29,12 @@ console.log(dog1.inheritAttr, dog1.name); // 暂时没想到如何向基类传�
 
 // 方法三：利用空对象
 function extend(Child, Parent) {
-  let F = function () { };
-  F.prototype = Parent;
-  Child.prototype = new F();
-  Child.prototype.constructor = Child;
+  let F = function () { }; // 空对象构造函数
+  F.prototype = Parent; // F的原型引用Parent
+  Child.prototype = new F(); // 因为F的prototype全部指向Parent，所以constructor也是Parent的constructor
+  Child.prototype.constructor = Child; // 将Child的构造函数纠正为Child本身
 }
+
 function Bird(name, sex) {
   this.sex = sex;
   this.name = name;
