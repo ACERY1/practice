@@ -8,6 +8,7 @@
         "no-var":"off",
         "no-plusplus":"off",
         "prefer-const":"off",
-        "eol-last":"off"
+        "eol-last":"off",
+        "vars-on-top":"off"
     }
 }
