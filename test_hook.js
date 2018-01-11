@@ -82,13 +82,6 @@ if(codeList2[code4]){
 //总结：如果我们把codeList2给export出去，那么就可以实现在固定状态码下的不同函数执行，好好结合Vue的生命周期想想
 //一个个的生命周期就是被提前固定好的'钩子'(hook),然后Vue的设计是让这几个hook串行执行。
 
-
-//http://blog.csdn.net/luffy_ying/article/details/60580437
-//https://www.2cto.com/kf/201706/649649.html
-//http://www.cnblogs.com/pannengzhi/p/5203467.html
-
-
-
 created={
     test (){
         console.log('hello')

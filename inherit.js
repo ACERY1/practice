@@ -1,3 +1,4 @@
+// ********类继承的几种方式********
 function Animal(name) {
   let privateAttr = 'this is private'; // 私有属性
   function privateFn() { }
