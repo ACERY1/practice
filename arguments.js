@@ -25,9 +25,12 @@ bar(...key1); // 2: 数组被展开成多个参数传入
 bar(key1); // 1:第一个参数作为数组传入
 // --end
 
+function error() {
+  throw new Error('Missing parameter');
+}
 function baz({
   a, b, c, d, e,
-}) {
+} = error()) {
   console.log(arguments)
 }
 
@@ -35,4 +38,6 @@ baz({
   a: 1,
   b: 2,
   x: 5,
-});
+}); // { '0': { a: 1, b: 2, x: 5 } }
+
+baz();
