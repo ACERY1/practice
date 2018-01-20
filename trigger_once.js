@@ -7,7 +7,7 @@ var once = function (fn) {
       hasTrigger = true;
       fn();
     } else {
-      console.log('该函数触发了两次');
+      console.log(fn.toString());
     }
   };
 };
@@ -15,4 +15,4 @@ var once = function (fn) {
 var test = once(() => { console.log('hello'); });
 
 test();
-test();
+test(); // 第二次将触发报错

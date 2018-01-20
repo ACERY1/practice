@@ -13,4 +13,4 @@ var throttle = function (fn, gapTime) {
 
 var test = throttle(() => { console.log('hello'); }, 3000);
 
-setInterval(test, 200);
+setInterval(test, 200); // 仍然是3000ms触发一次
