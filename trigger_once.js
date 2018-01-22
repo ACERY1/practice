@@ -7,7 +7,7 @@ var once = function (fn) {
       hasTrigger = true;
       fn();
     } else {
-      console.log(fn.toString());
+      console.log('');
     }
   };
 };
