@@ -48,3 +48,5 @@ function Ajax({
     xhr.send()
   }
 }
+
+// TODO: 原生xhr制作ajax
