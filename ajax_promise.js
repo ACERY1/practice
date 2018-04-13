@@ -16,6 +16,7 @@ xhr.onload = function () {
 xhr.send(data);
 
 var ajax = function ({ url, method, data, headers }) {
+  let xhr = new XMLHttpRequest()
   xhr.open(method, url);
   Object.keys(headers).forEach(function (key) {
     xhr.setRequestHeader(headers, headers[key])
